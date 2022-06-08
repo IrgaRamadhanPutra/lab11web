@@ -1,3 +1,11 @@
+Nama    : Irga Ramadhan Putra
+
+Kelas   : TI.20.D1
+
+NIM     : 312010067
+
+Matkul  : Pemograman Web
+
 Untuk mengaktifkan ekstentsi tersebut, melalu XAMPP Control Panel, pada bagian 
 Apache klik Config -> PHP.ini
 
@@ -126,3 +134,7 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 - About
 
+![image](https://user-images.githubusercontent.com/101645216/172710266-19959c82-232a-480f-9c72-d228b70971ea.png)
+
+Hasil browser
+![image](https://user-images.githubusercontent.com/101645216/172711935-35087aa3-bd33-4342-bc53-2e4262de0c4c.png)
