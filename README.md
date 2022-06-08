@@ -121,3 +121,8 @@ File app/view/template/footer.php
 
 ![image](https://user-images.githubusercontent.com/101645216/172687695-60e42caa-3e59-4d0e-9964-b0bbc63f3df2.png)
 
+Pertanyaan dan Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+- About
+
