@@ -138,3 +138,37 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 Hasil browser
 ![image](https://user-images.githubusercontent.com/101645216/172711935-35087aa3-bd33-4342-bc53-2e4262de0c4c.png)
+
+Membuat Database: Studi Kasus Data Artikel
+
+Membuat Database
+
+CREATE DATABASE lab_ci4
+
+Membuat Tabel
+
+![image](https://user-images.githubusercontent.com/101645216/173198146-9dd93805-7da0-47a4-948e-80983fc7b3fb.png)
+
+Konfigurasi koneksi database
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. 
+Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.php
+atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env.
+
+
+![image](https://user-images.githubusercontent.com/101645216/173198278-16d260a6-0fae-4398-b02c-58d6bd544cd8.png)
+
+Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada 
+direktori app/Models dengan nama ArtikelModel.php
+
+![image](https://user-images.githubusercontent.com/101645216/173198511-3a19e209-cd57-417f-835e-edbc892271ce.png)
+
+Membuat Controller
+Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers.
+
+![image](https://user-images.githubusercontent.com/101645216/173198580-ae62900a-ee2c-4179-976a-125bc9c2e884.png)
+
+Membuat View
+Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file 
+baru dengan nama index.php.
+
