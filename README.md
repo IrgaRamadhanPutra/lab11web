@@ -33,6 +33,8 @@ php spark
 
 ![image](https://user-images.githubusercontent.com/101645216/172682842-7ee98867-0d2f-4bba-af8d-2940239d1898.png)
 
+
+
 Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis 
 errornya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi 
 pada environment variable CI_ENVIRINMENT menjadi development.
@@ -172,3 +174,5 @@ Membuat View
 Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file 
 baru dengan nama index.php.
 
+
+![image](https://user-images.githubusercontent.com/101645216/173221836-3cf6e28f-de47-4776-bf65-01269aac4a54.png)
