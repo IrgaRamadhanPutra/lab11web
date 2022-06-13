@@ -174,5 +174,20 @@ Membuat View
 Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file 
 baru dengan nama index.php.
 
+![image](https://user-images.githubusercontent.com/101645216/173299306-a5232f75-2f17-465e-9703-300bd923aa42.png)
 
-![image](https://user-images.githubusercontent.com/101645216/173221836-3cf6e28f-de47-4776-bf65-01269aac4a54.png)
+
+Hasil browser
+
+![image](https://user-images.githubusercontent.com/101645216/173299191-4bc09d79-be8b-4223-9a89-b22e9911ba7e.png)
+
+Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada 
+database agar dapat ditampilkan datanya
+
+![image](https://user-images.githubusercontent.com/101645216/173299468-99fc2de4-9af8-4f99-bd05-3ef35fbe4a46.png)
+  
+Hasil browser
+
+![image](https://user-images.githubusercontent.com/101645216/173304367-4583b049-055e-45bf-8900-0034f9992bdd.png)
+
+
