@@ -89,15 +89,17 @@ Membuat Controller
 
 Hasil browser 
 
-![image](https://user-images.githubusercontent.com/101645216/172685239-c8dd4a63-167c-4eae-ab53-15f0a749159c.png)
+![image](https://user-images.githubusercontent.com/101645216/173799474-df457441-0dd9-4d82-a3f6-ee9a6da9b14d.png)
 
 
 Tambahkan method baru pada Controller Page seperti berikut.
 
 ![image](https://user-images.githubusercontent.com/101645216/172686664-698be1a4-575c-4b50-8a62-70bd850d5a46.png)
 
+Hasil Browsee
 
-![image](https://user-images.githubusercontent.com/101645216/172686017-520caf66-65ba-47b3-8bc1-96253acde4c4.png)
+
+![image](https://user-images.githubusercontent.com/101645216/173799676-5796ef35-e703-41eb-b417-454927317fbe.png)
 
 Membuat View
 Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file 
@@ -112,7 +114,8 @@ Ubah method about pada class Controller Page menjadi seperti berikut:
 
 Hasil browser 
 
-![image](https://user-images.githubusercontent.com/101645216/172687262-918aeaae-0363-4e24-aa6f-63be9a4693fa.png)
+![image](https://user-images.githubusercontent.com/101645216/173800155-548604c1-91dc-4eba-8c10-4ea1a42a92c7.png)
+
 
 Buat file css pada direktori public dengan nama style.css (copy file dari praktikum 
 lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
@@ -129,7 +132,10 @@ File app/view/template/footer.php
 
 ![image](https://user-images.githubusercontent.com/101645216/172687498-4acfc86d-0fe5-43b5-a1d7-7e470c847ce9.png)
 
-![image](https://user-images.githubusercontent.com/101645216/172687695-60e42caa-3e59-4d0e-9964-b0bbc63f3df2.png)
+Hasil browser
+
+![image](https://user-images.githubusercontent.com/101645216/173800501-5d804763-e17e-4756-819d-d94309277adb.png)
+
 
 Pertanyaan dan Tugas
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
