@@ -147,6 +147,8 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 Hasil browser
 ![image](https://user-images.githubusercontent.com/101645216/172711935-35087aa3-bd33-4342-bc53-2e4262de0c4c.png)
 
+#Tugas 13
+
 Membuat Database: Studi Kasus Data Artikel
 
 Membuat Database
@@ -194,6 +196,74 @@ database agar dapat ditampilkan datanya
   
 Hasil browser
 
-![image](https://user-images.githubusercontent.com/101645216/173304367-4583b049-055e-45bf-8900-0034f9992bdd.png)
+![image](https://user-images.githubusercontent.com/101645216/173814999-08f81a93-d550-4be4-ad9f-0fb0df96f580.png)
+
+Membuat Tampilan Detail Artikel yaitu Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. dengan cara tambahkan fungsi baru pada Controller Artikel dengan nama view().
+
+![image](https://user-images.githubusercontent.com/101645216/173815816-bcf3ecb8-2c54-456e-93e6-af071682580d.png)
+
+Membuat View Detail. Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php.
+
+![image](https://user-images.githubusercontent.com/101645216/173816028-f50ddfc0-b80c-4537-8ea9-7554f673e23b.png)
+
+Membuat Routing untuk artikel detail, Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail.
+
+![image](https://user-images.githubusercontent.com/101645216/173816282-0c99a899-c66b-43db-b21f-594a61325696.png)
 
 
+Kemudian klik pada artikel 1 atau dua untuk melihat hasilnya.
+
+![image](https://user-images.githubusercontent.com/101645216/173816436-7a0c294b-3296-4289-b251-aedaf00468e6.png)
+
+Membuat Menu Admin, menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
+
+![image](https://user-images.githubusercontent.com/101645216/173816642-ed75d690-5e55-482d-9e60-c1b5e0ffd9fe.png)
+
+selanjutnya buat view untuk tampilan admin dengan nama admin_index.php
+
+![image](https://user-images.githubusercontent.com/101645216/173816903-7c94b4cc-a666-4cb2-9000-377f4bb826d2.png)
+
+![image](https://user-images.githubusercontent.com/101645216/173816991-479bb096-4aa3-4fba-81cc-ed55f923cc6a.png)
+
+
+Tambahkan routing untuk menu admin seperti berikut
+
+![image](https://user-images.githubusercontent.com/101645216/173817202-381f3d46-4122-456f-87f3-a97cf421bd0d.png)
+
+Akses menu admin dengan url http://localhost:8080/admin/artikel
+
+
+![image](https://user-images.githubusercontent.com/101645216/173818346-3f92ff92-6776-4bf2-884c-ea8283f3ce0f.png)
+
+
+Menambah Data Artikel, tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
+
+![image](https://user-images.githubusercontent.com/101645216/173817717-f6b28e3b-f9a4-4812-9b1e-3c753bf57ff8.png)
+
+
+Kemudian buat view untuk form tambah dengan nama form_add.php
+
+![image](https://user-images.githubusercontent.com/101645216/173817854-bf7fc367-98e6-4205-b7b4-73cca70ec337.png)
+
+
+Hasil Browser
+
+![image](https://user-images.githubusercontent.com/101645216/173818469-434eee83-2c8a-4b17-ab0f-a135175eace2.png)
+
+Mengubah Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
+
+![image](https://user-images.githubusercontent.com/101645216/173818645-413d29a7-8aad-4747-843a-592e3863c27d.png)
+
+Kemudian buat view untuk form tambah dengan nama form_edit.php
+
+![image](https://user-images.githubusercontent.com/101645216/173818782-d7e31a4f-aae6-4c2b-a8f1-ecae1c93a9c2.png)
+
+Hasil browser
+
+![image](https://user-images.githubusercontent.com/101645216/173818896-3430a4e1-610a-4738-b847-a3ca5c5e84ba.png)
+
+
+Menghapus Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+
+
+![image](https://user-images.githubusercontent.com/101645216/173819017-4b24d2e8-01ce-4693-835d-562bd5476976.png)
