@@ -267,3 +267,19 @@ Menghapus Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama
 
 
 ![image](https://user-images.githubusercontent.com/101645216/173819017-4b24d2e8-01ce-4693-835d-562bd5476976.png)
+
+PRAKTIKUM 13
+Langkah-langkah Praktikum
+Persiapan.
+Untuk memulai membuat modul Login, yang perlu disiapkan adalah database server
+menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui
+XAMPP.
+
+Membuat Tabel: User Login
+
+![image](https://user-images.githubusercontent.com/101645216/174441767-1abab8f0-0fa5-4ff4-9cc7-c150ffb3b39d.png)
+
+
+![image](https://user-images.githubusercontent.com/101645216/174441809-94d997da-2996-4283-b822-464e9800a712.png)
+ 
+ 
