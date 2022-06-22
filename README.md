@@ -6,6 +6,8 @@ NIM     : 312010067
 
 Matkul  : Pemograman Web
 
+# Praktikum 11
+
 Untuk mengaktifkan ekstentsi tersebut, melalu XAMPP Control Panel, pada bagian 
 Apache klik Config -> PHP.ini
 
@@ -149,7 +151,7 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 Hasil browser
 ![image](https://user-images.githubusercontent.com/101645216/172711935-35087aa3-bd33-4342-bc53-2e4262de0c4c.png)
 
-#Tugas 13
+# Praktikum 12
 
 Membuat Database: Studi Kasus Data Artikel
 
@@ -270,7 +272,7 @@ Menghapus Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama
 
 ![image](https://user-images.githubusercontent.com/101645216/173819017-4b24d2e8-01ce-4693-835d-562bd5476976.png)
 
-PRAKTIKUM 13
+# PRAKTIKUM 13
 Langkah-langkah Praktikum
 Persiapan.
 Untuk memulai membuat modul Login, yang perlu disiapkan adalah database server
