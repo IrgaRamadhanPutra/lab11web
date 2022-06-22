@@ -35,6 +35,8 @@ php spark
 
 
 
+
+
 Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis 
 errornya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi 
 pada environment variable CI_ENVIRINMENT menjadi development.
@@ -281,5 +283,48 @@ Membuat Tabel: User Login
 
 
 ![image](https://user-images.githubusercontent.com/101645216/174441809-94d997da-2996-4283-b822-464e9800a712.png)
- 
+
+Membuat Model User
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada 
+direktori app/Models dengan nama UserModel.php
+
+![image](https://user-images.githubusercontent.com/101645216/174940056-6fc19694-6b9e-496d-8691-2c159c85a4b1.png)
+
+Membuat Controller User
+Buat Controller baru dengan nama User.php pada direktori app/Controllers.
+Kemudian tambahkan method index() untuk menampilkan daftar user, dan method 
+login() untuk proses login.
+
+![image](https://user-images.githubusercontent.com/101645216/174940110-713bb859-2fea-4be0-9481-18ab7b7ff95b.png)
+
+![image](https://user-images.githubusercontent.com/101645216/174940150-8551b872-1a4a-4284-8fb8-e053d5868ede.png)
+
+Membuat View Login
+Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file 
+baru dengan nama login.php. 
+
+![image](https://user-images.githubusercontent.com/101645216/174940298-62244678-957e-45ed-aac7-965b49c95db4.png)
+
+![image](https://user-images.githubusercontent.com/101645216/174940334-e2c7de25-6f75-48d8-b4e8-52f7180f97f4.png)
+
+Membuat Database Seeder
+
+![image](https://user-images.githubusercontent.com/101645216/174940393-c1607569-3a1d-47ec-bbda-4509cb63a2c9.png)
+
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori 
+/app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut
+
+![image](https://user-images.githubusercontent.com/101645216/174940443-204f02b7-9855-4f91-a63e-f252f53eaa1c.png)
+
+
+![image](https://user-images.githubusercontent.com/101645216/174940471-8d149d9f-bb66-4977-b2fd-190a7fc6a593.png)
+
+
+Uji Coba Login
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+
+
+![image](https://user-images.githubusercontent.com/101645216/174940575-1764086a-d0b3-4e58-bcfe-ba3e5da4584a.png)
+
+
  
